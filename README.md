@@ -73,6 +73,7 @@
 
 ## 📁 폴더 구조
 
+```cmd
 react-level-up-study/
 ├── 01_getting-started/
 ├── 02_components/
@@ -93,6 +94,7 @@ react-level-up-study/
 ├── firestore/
 ├── realtime-db/
 └── storage/
+```
 
 ---
 
