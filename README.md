@@ -24,7 +24,7 @@
 - [✔︎] 3. 컴포넌트 (Components)
 - [✔︎] 4. 프롭스 (Props) 01 — 기본 사용법
 - [✔︎] 5. 프롭스 (Props) 02 — 여러 개의 프롭스
-- [ ] 6.  이벤트 처리 (Event)
+- [✔︎] 6. 이벤트 처리 (Event)
 - [ ] 7.  컴포넌트 모듈화 (Modules)
 - [ ] 8.  상태 (State) — useState 훅
 - [ ] 9.  스타일과 이미지 (Style & Image)
