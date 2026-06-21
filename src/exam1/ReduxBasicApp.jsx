@@ -13,7 +13,10 @@ import { useDispatch, useSelector } from "react-redux";
 import { deceremnet, increment, reset } from "./couterSlice";
 
 export default function ReduxBasicApp() {
+  // subscribe : useSelectore훅을 사용해 원하는 상태값 구독
   const countVal = useSelector((nowState) => nowState.myCounter.myValue);
+
+  // dispatch : useDispatch훅을 사용해 액션을 스토어에 전달하여 리듀서 호출
   const dispatch = useDispatch();
   return (
     <>
