@@ -1,7 +1,8 @@
-export default function store() {
-  return (
-    <>
-      <h1>store Component</h1>
-    </>
-  );
-}
+import { configureStore } from "@reduxjs/toolkit";
+import todoReducer from "./todoSlice";
+
+export const store = configureStore({
+  reducer: {
+    todos: todoReducer,
+  },
+});

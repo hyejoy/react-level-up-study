@@ -7,9 +7,9 @@ import { store as basicStore } from "./exam1/store";
 import ReduxBasicApp from "./exam1/ReduxBasicApp";
 
 // 할일 관리 예제
-// import { Provider as TodoProvider } from "react-redux";
-// import { store as todoStore } from "./exam2/store";
-// import TodoApp from "./exam2/TodoApp";
+import { Provider as TodoProvider } from "react-redux";
+import { store as todoStore } from "./exam2/store";
+import TodoApp from "./exam2/TodoApp";
 
 export default function App() {
   return (
@@ -32,14 +32,14 @@ export default function App() {
             </BasicProvider>
           }
         />
-        {/* <Route
+        <Route
           path="/TodoApp"
           element={
             <TodoProvider store={todoStore}>
               <TodoApp />
             </TodoProvider>
           }
-        /> */}
+        />
       </Routes>
     </>
   );
